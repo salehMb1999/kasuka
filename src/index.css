@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: "iranSansMed";
-        src: url("./src/public/fonts/IRANSansWeb(FaNum)_Medium.woff");
-    }
-    
+  @font-face {
+    font-family: "iranSansMed";
+    src: url("./src/public/fonts/IRANSansWeb(FaNum)_Medium.woff");
+  }
+}
+@layer utilities {
+  .selected {
+    color: #ffc451;
+  }
 }
