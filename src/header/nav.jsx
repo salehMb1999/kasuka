@@ -28,9 +28,26 @@ export default function Nav() {
               <li className="flex items-center justify-start px-4 py-2 hover:bg-[#ffc451]">
                 <a href="#">لیست کشویی 1</a>
               </li>
-              <li className="flex items-center justify-start gap-2 px-4 py-2 hover:bg-[#ffc451]">
+              <li className="group/sub flex items-center justify-start gap-2 px-4 py-2 hover:bg-[#ffc451]">
                 <a href="#">لیست کشویی عمیق</a>
                 <i className="fa fa-chevron-left" aria-hidden="true"></i>
+                <ul className="invisible absolute right-10 top-16 flex w-48 flex-col  items-stretch justify-center gap-5 bg-white py-2 text-black opacity-0 shadow-md duration-300 ease-in-out group-hover/sub:visible group-hover/sub:right-48 group-hover/sub:opacity-100">
+                  <li className="flex items-center justify-start px-4 py-2 hover:bg-[#ffc451]">
+                    <a href="#">لیست کشویی عمیق 1</a>
+                  </li>
+                  <li className="flex items-center justify-start px-4 py-2 hover:bg-[#ffc451]">
+                    <a href="#">لیست کشویی عمیق 2</a>
+                  </li>
+                  <li className="flex items-center justify-start px-4 py-2 hover:bg-[#ffc451]">
+                    <a href="#">لیست کشویی عمیق 3</a>
+                  </li>
+                  <li className="flex items-center justify-start px-4 py-2 hover:bg-[#ffc451]">
+                    <a href="#">لیست کشویی عمیق 4</a>
+                  </li>
+                  <li className="flex items-center justify-start px-4 py-2 hover:bg-[#ffc451]">
+                    <a href="#">لیست کشویی عمیق 5</a>
+                  </li>
+                </ul>
               </li>
               <li className="flex items-center justify-start px-4 py-2 hover:bg-[#ffc451]">
                 <a href="#">لیست کشویی 2</a>
