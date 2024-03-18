@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <div className="overflow-hidden font-iranSansMed">
       <Nav />
-      <div className="relative h-auto w-screen bg-[url('/src/public/images/hero-bg.jpg')] from-slate-500 to-slate-500 bg-cover bg-fixed  bg-top bg-no-repeat py-14 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:bg-[rgba(0,0,0,.6)] md:h-[91vh] md:bg-center">
+      <div className="relative h-auto w-screen bg-[url('/src/public/images/hero-bg.jpg')] bg-cover bg-fixed bg-top bg-no-repeat  py-14 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:bg-[rgba(0,0,0,.6)] before:from-slate-500 before:to-slate-500 md:h-[91vh] md:bg-center">
         <div className="container relative mx-auto flex h-full flex-col items-center justify-center p-3">
           <div className="flex flex-col items-center justify-center gap-10 pt-20 text-white">
             <div className="flex flex-col items-center justify-center gap-5 text-center">
