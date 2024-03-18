@@ -1,3 +1,5 @@
+import Clients from "./clients";
+
 export default function Introduction() {
   return (
     <div className="container mx-auto py-24 font-iranSansMed">
@@ -84,6 +86,7 @@ export default function Introduction() {
           />
         </div>
       </div>
+      <Clients />
     </div>
   );
 }
