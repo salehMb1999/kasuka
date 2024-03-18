@@ -2,9 +2,9 @@ import Clients from "./clients";
 
 export default function Introduction() {
   return (
-    <div className="container mx-auto py-24 font-iranSansMed">
-      <div className="flex items-start justify-between">
-        <div className="flex w-3/6 flex-col items-start justify-stretch gap-6 text-balance text-slate-700">
+    <div className="container mx-auto px-3 py-24 font-iranSansMed">
+      <div className="flex flex-col-reverse items-start justify-between gap-5 lg:flex-row">
+        <div className="flex flex-col items-start justify-stretch gap-6 text-balance text-slate-700 lg:w-1/2">
           <div>
             <h2 className="text-3xl">شرکت دیجیتال کاسوکا</h2>
           </div>
@@ -78,7 +78,7 @@ export default function Introduction() {
             </p>
           </div>
         </div>
-        <div className="w-2/5">
+        <div className="lg:w-1/2 xl:w-2/5">
           <img
             className="w-full"
             src="./src/public/images/about.jpg"

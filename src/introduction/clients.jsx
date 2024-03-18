@@ -21,23 +21,23 @@ const clientsInfo = {
 
 export default function Clients() {
   return (
-    <div className="mt-20 flex items-center justify-between">
-      <div className="flex w-1/12 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0">
+    <div className="mt-20 flex flex-wrap items-center justify-between gap-14 md:gap-0">
+      <div className="flex w-1/6 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0 md:w-1/12">
         <img className="w-full" src={clientsInfo.pic1.src} />
       </div>
-      <div className="flex w-1/12 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0">
+      <div className="flex w-1/6 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0 md:w-1/12">
         <img className="w-full" src={clientsInfo.pic2.src} />
       </div>
-      <div className="flex w-1/12 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0">
+      <div className="flex w-1/6 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0 md:w-1/12">
         <img className="w-full" src={clientsInfo.pic3.src} />
       </div>
-      <div className="flex w-1/12 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0">
+      <div className="flex w-1/6 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0 md:w-1/12">
         <img className="w-full" src={clientsInfo.pic4.src} />
       </div>
-      <div className="flex w-1/12 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0">
+      <div className="flex w-1/6 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0 md:w-1/12">
         <img className="w-full" src={clientsInfo.pic5.src} />
       </div>
-      <div className="flex w-1/12 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0">
+      <div className="flex w-1/6 items-center justify-center opacity-50 grayscale duration-300 ease-in-out hover:opacity-100 hover:grayscale-0 md:w-1/12">
         <img className="w-full" src={clientsInfo.pic6.src} />
       </div>
     </div>
