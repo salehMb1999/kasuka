@@ -8,7 +8,7 @@ export default function Portfolio() {
         <h2 className="text-3xl">نمونه کارهای ما را بررسی کنید</h2>
       </div>
       <div className="mt-14 flex flex-col items-center">
-        <div className="mb-10 flex justify-center gap-10">
+        <div className="mb-10 flex justify-center gap-1 sm:gap-3 md:gap-10">
           <a
             className="rounded-lg bg-[#ffc451] p-2 duration-300 ease-in-out"
             href="#"
@@ -34,7 +34,7 @@ export default function Portfolio() {
             اینترنت
           </a>
         </div>
-        <div className="grid grid-cols-3  gap-10">
+        <div className="grid gap-10 max-md:grid-cols-1 md:grid-cols-2  lg:grid-cols-3">
           <div className="flex flex-col gap-10">
             <div className="group/img1 relative overflow-hidden duration-300 ease-in-out before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:z-30 before:bg-[rgba(0,0,0,.6)] before:opacity-0 before:duration-300 before:ease-in-out hover:before:opacity-100">
               <img
@@ -216,7 +216,7 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-10 md:max-lg:col-span-2 md:max-lg:grid md:max-lg:grid-cols-2">
             <div className="group/img8 relative overflow-hidden duration-300 ease-in-out before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:z-30 before:bg-[rgba(0,0,0,.6)] before:opacity-0 before:duration-300 before:ease-in-out hover:before:opacity-100">
               <img
                 className="w-full duration-300 ease-in-out group-hover/img8:scale-125 "
