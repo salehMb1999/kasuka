@@ -24,14 +24,14 @@ export default function Nav() {
           <li className="hover:selected group/nav relative flex items-center justify-center gap-2 py-3 duration-300 ease-in-out">
             <a href="#">لیست کشویی</a>
             <i className="fa fa-chevron-down" aria-hidden="true"></i>
-            <ul className="invisible absolute top-28 flex w-48  flex-col items-stretch justify-center gap-5 bg-white py-2 text-black opacity-0 duration-300 ease-in-out group-hover/nav:visible group-hover/nav:top-12 group-hover/nav:opacity-100">
+            <ul className="invisible absolute top-28 flex w-48  flex-col items-stretch justify-center gap-1 bg-white py-2 text-black opacity-0 duration-300 ease-in-out group-hover/nav:visible group-hover/nav:top-12 group-hover/nav:opacity-100">
               <li className="flex items-center justify-start px-4 py-2 hover:bg-[#ffc451]">
                 <a href="#">لیست کشویی 1</a>
               </li>
               <li className="group/sub flex items-center justify-start gap-2 px-4 py-2 hover:bg-[#ffc451]">
                 <a href="#">لیست کشویی عمیق</a>
                 <i className="fa fa-chevron-left" aria-hidden="true"></i>
-                <ul className="invisible absolute right-10 top-16 flex w-48 flex-col  items-stretch justify-center gap-5 bg-white py-2 text-black opacity-0 shadow-md duration-300 ease-in-out group-hover/sub:visible group-hover/sub:right-48 group-hover/sub:opacity-100">
+                <ul className="invisible absolute right-64 top-12 flex w-48 flex-col  items-stretch justify-center gap-2 bg-white py-2 text-black opacity-0 shadow-md duration-200 ease-in-out group-hover/sub:visible group-hover/sub:right-48 group-hover/sub:opacity-100">
                   <li className="flex items-center justify-start px-4 py-2 hover:bg-[#ffc451]">
                     <a href="#">لیست کشویی عمیق 1</a>
                   </li>
