@@ -7,6 +7,8 @@ import Features from "./features/features";
 import Services from "./services/services";
 import Cta from "./cta/cta";
 import Portfolio from "./portfolio/portfolio";
+import Counts from "./counts/counts";
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Header />
@@ -15,5 +17,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Services />
     <Cta />
     <Portfolio />
+    <Counts />
   </React.StrictMode>,
 );
