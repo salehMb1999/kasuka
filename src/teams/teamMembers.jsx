@@ -2,8 +2,8 @@ import TeamBoxes from "./teamBoxes";
 
 export default function TeamMembers() {
   return (
-    <div className="group/box overflow-hidden rounded-lg font-iranSansMed shadow-md shadow-slate-300">
-      <div className="relative z-0 w-80 overflow-hidden">
+    <div className="group/box w-full overflow-hidden rounded-lg font-iranSansMed shadow-md shadow-slate-300 md:w-[calc(50%-1.25rem)] lg:w-[calc(25%-1.25rem)]">
+      <div className="relative z-0 flex items-center justify-center overflow-hidden">
         <img
           className="h-full w-full"
           src="./src/public/images/team-2.jpg"

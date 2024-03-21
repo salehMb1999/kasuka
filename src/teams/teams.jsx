@@ -8,7 +8,7 @@ export default function Teams() {
         </span>
         <h2 className="text-3xl">تیم ما را بررسی کنید</h2>
       </div>
-      <div className="flex items-center justify-between pt-10">
+      <div className="flex w-full flex-wrap items-center justify-between gap-5  pt-10">
         <TeamMembers />
         <TeamMembers />
         <TeamMembers />
