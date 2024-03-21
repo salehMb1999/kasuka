@@ -11,6 +11,7 @@ import Counts from "./counts/counts";
 import Testimonials from "./testimonials/testimonials";
 import Teams from "./teams/teams";
 import Contact from "./contact/contact";
+import Footer from "./footer/footer";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Header />
@@ -23,5 +24,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Testimonials />
     <Teams />
     <Contact />
+    <Footer />
   </React.StrictMode>,
 );
