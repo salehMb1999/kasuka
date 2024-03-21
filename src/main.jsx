@@ -10,6 +10,7 @@ import Portfolio from "./portfolio/portfolio";
 import Counts from "./counts/counts";
 import Testimonials from "./testimonials/testimonials";
 import Teams from "./teams/teams";
+import Contact from "./contact/contact";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Header />
@@ -21,5 +22,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Counts />
     <Testimonials />
     <Teams />
+    <Contact />
   </React.StrictMode>,
 );
