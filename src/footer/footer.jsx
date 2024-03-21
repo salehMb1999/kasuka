@@ -37,7 +37,7 @@ export default function Footer() {
                     aria-hidden="true"
                   ></i>
                   <a
-                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-3"
+                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-2.5"
                     href="#"
                   >
                     خانه
@@ -49,7 +49,7 @@ export default function Footer() {
                     aria-hidden="true"
                   ></i>
                   <a
-                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-3"
+                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-2.5"
                     href="#"
                   >
                     درباره ما
@@ -61,7 +61,7 @@ export default function Footer() {
                     aria-hidden="true"
                   ></i>
                   <a
-                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-3"
+                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-2.5"
                     href="#"
                   >
                     خدمات
@@ -73,7 +73,7 @@ export default function Footer() {
                     aria-hidden="true"
                   ></i>
                   <a
-                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-3"
+                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-2.5"
                     href="#"
                   >
                     شرایط استفاده از خدمات
@@ -85,7 +85,7 @@ export default function Footer() {
                     aria-hidden="true"
                   ></i>
                   <a
-                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-3"
+                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-2.5"
                     href="#"
                   >
                     سیاست حفظ حریم خصوصی
@@ -102,7 +102,7 @@ export default function Footer() {
                     aria-hidden="true"
                   ></i>
                   <a
-                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-3"
+                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-2.5"
                     href="#"
                   >
                     طراحی وب سایت
@@ -114,7 +114,7 @@ export default function Footer() {
                     aria-hidden="true"
                   ></i>
                   <a
-                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-3"
+                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-2.5"
                     href="#"
                   >
                     توسعه وب
@@ -126,7 +126,7 @@ export default function Footer() {
                     aria-hidden="true"
                   ></i>
                   <a
-                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-3"
+                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-2.5"
                     href="#"
                   >
                     مدیریت تولید
@@ -138,7 +138,7 @@ export default function Footer() {
                     aria-hidden="true"
                   ></i>
                   <a
-                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-3"
+                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-2.5"
                     href="#"
                   >
                     بازاریابی
@@ -150,7 +150,7 @@ export default function Footer() {
                     aria-hidden="true"
                   ></i>
                   <a
-                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-3"
+                    className="hover:selected mr-1.5 duration-300 ease-in-out hover:mr-2.5"
                     href="#"
                   >
                     طراحی گرافیک
