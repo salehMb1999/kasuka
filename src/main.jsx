@@ -9,6 +9,7 @@ import Cta from "./cta/cta";
 import Portfolio from "./portfolio/portfolio";
 import Counts from "./counts/counts";
 import Testimonials from "./testimonials/testimonials";
+import Teams from "./teams/teams";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Header />
@@ -19,5 +20,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Portfolio />
     <Counts />
     <Testimonials />
+    <Teams />
   </React.StrictMode>,
 );
