@@ -70,6 +70,7 @@ export default function Nav() {
               شروع
             </button>
             <a
+              onClick={mobileMenu}
               className="text-2xl text-white duration-300 ease-in-out lg:hidden"
               href="#"
             >
