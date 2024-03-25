@@ -69,7 +69,10 @@ export default function Nav() {
             <button className="text flex items-center justify-center rounded-lg border-2 border-[#ffc451] px-4 py-1 text-white duration-300 ease-in-out hover:bg-[#ffc451] hover:text-black">
               شروع
             </button>
-            <a className="text-2xl text-white lg:hidden" href="#">
+            <a
+              className="text-2xl text-white duration-300 ease-in-out lg:hidden"
+              href="#"
+            >
               <i className="fa fa-align-justify" aria-hidden="true"></i>
             </a>
           </div>
