@@ -2,7 +2,7 @@ export default function Nav() {
   return (
     <div className="fixed left-0 right-0 top-0 z-10 bg-black font-iranSansMed">
       <div className="container mx-auto flex items-center justify-between bg-black p-3">
-        <div className="cursor-pointer text-3xl text-white">
+        <div className="cursor-pointer  text-3xl text-white">
           <h1>KASUKA</h1>
         </div>
         <ul className="hidden items-center justify-center gap-10 text-white lg:flex">
@@ -70,7 +70,6 @@ export default function Nav() {
               شروع
             </button>
             <a
-              onClick={mobileMenu}
               className="text-2xl text-white duration-300 ease-in-out lg:hidden"
               href="#"
             >
